@@ -14,7 +14,6 @@ public class Lms_Main {
 		for (int i = 0; i < Book.length; i++) {
 			myBooks.offer(Book[i]);
 		}
-
 		System.out.println(myBooks);
 
 	}
