@@ -9,9 +9,9 @@ public class Users {
 		UserType type = null;
 		while (true) {
 			System.out.println("\n\n\t\t\t\t\t   1.librarian\t  \t 2.Student");
-			System.out.println("\t\t\t-----------------------------------------------------------------------");
+			System.out.println("\t\t\t--------------------------------------------------------------------");
 			System.out.println("\t\t\t\t\t         Choose the user type:");
-			System.out.println("Start: ");
+			System.out.println("ENTER: ");
 			int userChoice = scan.nextInt();
 			if (userChoice == 1) {
 				type = UserType.lIBRARIAN;

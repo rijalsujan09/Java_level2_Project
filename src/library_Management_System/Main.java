@@ -7,11 +7,12 @@ public class Main {
 
 	public static void main(String[] args) throws InterruptedException {
 
-		String[] Heading = { "\n\t\t\t\t\t Welcome", " to", " Library", " Management", " System" };
+		String[] Heading = { "\n"
+				+ "\t\t\t\t\t Welcome", " to", " Library", " Management", " System" };
 		
 		for(int i=0; i<Heading.length; i++) {
 			System.out.print(Heading[i]);
-			Thread.sleep(500);
+			Thread.sleep(300);
 		}
 		System.out.println();
 
